@@ -53,3 +53,6 @@ adapter.setDataList(stringArrayList, getContext(), new OnClickListener() {// 点
 ```
 
 # Gradle
+```Gradle
+compile 'com.zyl.androidinfiniteloopviewpager:androidinfiniteloopviewpager:0.0.1'
+```
