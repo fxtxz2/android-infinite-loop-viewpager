@@ -1,6 +1,8 @@
 # android-infinite-loop-viewpager
 android的viewpager是不支持左右无限浏览的，参照[用最简单最实用的方式实现ViewPager无限循环两种方式](http://blog.csdn.net/Just_Sanpark/article/details/17436037)中的第一种思路，左右多使用一张ImageView作为过渡，达到无限循环浏览的效果，还自定义了viewpager的指示器，该指示器可以不依赖viewpager，是需要设置好数据大小，以及在layout中设置好即可。
 
+# 左右无限循环效果
+![viewpagerloop](images/viewpager_loop.gif)
 # 指南
 ## viewpager和指示器在layout中的布局使用
 ```xml
@@ -23,7 +25,7 @@ android的viewpager是不支持左右无限浏览的，参照[用最简单最实
             android:orientation="horizontal"
             android:gravity="center_horizontal"/>
 
-    </FrameLayout>
+</FrameLayout>
 ```
 ## viewpager设置Adapter
 ```java
