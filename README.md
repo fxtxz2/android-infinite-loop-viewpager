@@ -1,4 +1,4 @@
-[![bintray](https://img.shields.io/bintray/v/zyl/maven/android-infinite-loop-viewpager.svg)](https://bintray.com/zyl/maven/android-infinite-loop-viewpager/_latestVersion)
+[![bintray](https://api.bintray.com/packages/zyl/maven/android-infinite-loop-viewpager/images/download.svg)](https://bintray.com/zyl/maven/android-infinite-loop-viewpager/_latestVersion)
 # android-infinite-loop-viewpager
 android的viewpager是不支持左右无限浏览的，参照[用最简单最实用的方式实现ViewPager无限循环两种方式](http://blog.csdn.net/Just_Sanpark/article/details/17436037)中的第一种思路，左右多使用一张ImageView作为过渡，达到无限循环浏览的效果，还自定义了viewpager的指示器，该指示器可以不依赖viewpager，是需要设置好数据大小，以及在layout中设置好即可。
 
